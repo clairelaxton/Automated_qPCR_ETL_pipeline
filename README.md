@@ -20,12 +20,15 @@ Include a new directory within [your_project_folder] called ‘raw’ and drop i
 
 <img width="489" height="324" alt="image" src="https://github.com/user-attachments/assets/d7c73606-d930-4ef5-a781-9d3e51cfe028" />
 
+
 Figure 1: Instructions for preparing plate_maps.csv file.
 
 
 <img width="409" height="153" alt="image" src="https://github.com/user-attachments/assets/93c6dd6f-e609-4e50-a7b6-6992cfd2339e" />
 
+
 Figure 2: Instructions for preparing the target_mapping.csv file.
+
 
 
 3.	Run the script: double click on the shortcut
