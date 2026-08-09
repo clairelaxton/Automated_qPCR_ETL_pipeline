@@ -75,7 +75,7 @@ A,...
   (negative) somewhere in the sample name to have it recognized as a control — numbered
   variants like `NTC1`, `POS2` work too.
 
-A few common formatting slips are recovered from automatically (you'll still see a warning
+A few common formatting errors are bypassed automatically (you'll still see a warning
 in the log, but the data is parsed correctly either way):
 - A stray leading blank column shifting the whole plate one or more columns to the right.
 - Row-letter cells (the `A`–`H` column) left blank — the row's position in the grid is used
