@@ -27,15 +27,19 @@ your-project-folder/
 ```bash
 pip install -r requirements.txt
 ```
+If you're having issues installing requirements, you can install each package individually:
+```bash
+pip3 install pandas
+pip3 install numpy
+pip3 install openpyxl
+```
+If you're still having issues, try Option 2.
+
 2) Run the pipeline against it:
 
 ```bash
 python3 ./your/path/to/Automated_qPCR_ETL_pipeline/qpcr_pipeline_main.py /path/to/your-project-folder
 ```
-
-(Or `cd` into your project folder first and just run `python3 /path/to/qpcr_pipeline_main.py`
-with no argument — either order works, since either the argument or the current directory
-tells it where your data is.)
 
 ### Option 2 
 #### This is the recommended method if you're running into permissions issues with Python
@@ -123,6 +127,7 @@ the clean summary. It's off unless you ask for it:
 ```bash
 python3 qpcr_pipeline_main.py /path/to/your-project-folder --internal-control RNaseP
 ```
+This is the only way to run this. You cannot use the bash script to run internal controls.
 
 `RNaseP` here must match a `Target` value your `target_mapping.csv` actually produces
 (case-insensitive) — it doesn't have to be RNase P specifically, it's whatever you've mapped
