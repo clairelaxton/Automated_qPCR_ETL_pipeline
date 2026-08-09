@@ -81,10 +81,8 @@ in the log, but the data is parsed correctly either way):
 - Row-letter cells (the `A`–`H` column) left blank — the row's position in the grid is used
   instead.
 
-One thing *isn't* auto-corrected, because there's no safe way to guess which plate is right:
-**reusing the same run name for two different plate sections in the file.** Only the first
-occurrence is kept (loading both would silently double-count every well they share), and
-it's reported as an error — rename one of the sections and re-run.
+**Do not reuse the same run name for two different plate sections in the file.** Only the first
+occurrence will be kept, and it's reported as an error.
 
 ## target_mapping.csv format (optional)
 
