@@ -5,16 +5,10 @@ target mapping, running QC, and collating everything into a clean summary — so
 have to do it by hand in Excel.
 
 ## Quick start
-
-1) Install Python 3.10+ if you don't already have it: https://realpython.com/installing-python/
-
-2) Install dependencies (once, from this repo):
-
-```bash
-pip install -r requirements.txt
-```
-
-3) Set up a project folder for your data — this is separate from the pipeline code and can
+1) Click  to <> Code, Download ZIP
+2) Unzip file and move contents to Project Folder
+3) Install Python 3.10+ if you don't already have it: https://realpython.com/installing-python/
+4) Set up a project folder for your data — this is separate from the pipeline code and can
 live anywhere:
 
 ```text
@@ -25,25 +19,37 @@ your-project-folder/
     ├── Run1.csv
     ├── Run2.csv
     └── ...
+Automated_qPCR_ETL_pipeline/
+├── unzipped contents of this repository
 ```
-
-4) Run the pipeline against it:
+### Option 1
+1) Install dependencies (once, from this repo):
 
 ```bash
-python3 qpcr_pipeline_main.py /path/to/your-project-folder
+pip install -r requirements.txt
+```
+2) Run the pipeline against it:
+
+```bash
+python3 ./your/path/to/Automated_qPCR_ETL_pipeline/qpcr_pipeline_main.py /path/to/your-project-folder
 ```
 
 (Or `cd` into your project folder first and just run `python3 /path/to/qpcr_pipeline_main.py`
 with no argument — either order works, since either the argument or the current directory
 tells it where your data is.)
 
-Or use the provided convenience script, which creates a virtual environment, installs
+### Option 2 
+#### This is the recommended method if you're running into permissions issues with Python
+Use the provided convenience script, which creates a virtual environment, installs
 dependencies, and runs the pipeline in one step:
-
 ```bash
-./run_pipeline.sh /path/to/your-project-folder
+./your/path/to/run_pipeline.sh /path/to/your-project-folder
 ```
 
+If you run into an issue saying that you don't have permissions to run this script, you can change your permissions by running:
+```bash
+chmod +x ./your/path/to/run_pipeline.sh
+```
 ## plate_maps.csv format
 
 One or more plates, stacked vertically in a single CSV, each shaped like this:
