@@ -13,14 +13,13 @@ live anywhere:
 
 ```text
 your-project-folder/
+├── Automated_qPCR_ETL_pipeline/ <- unzipped contents of this repository
 ├── plate_maps.csv          <- your exported plate maps (see below)
 ├── target_mapping.csv      <- optional, your target assignments (see below)
 └── raw/                    <- folder with your qPCR .csv exports
     ├── Run1.csv
     ├── Run2.csv
     └── ...
-Automated_qPCR_ETL_pipeline/
-├── unzipped contents of this repository
 ```
 ### Option 1
 1) Install dependencies (once, from this repo):
