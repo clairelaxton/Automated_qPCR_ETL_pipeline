@@ -1,5 +1,5 @@
 # Automated_qPCR_ETL_pipeline README
-This pipeline automates processing raw qPCR exports (Bio-Rad or ABI), merging them with a plate map and target mapping, running QC, and collating everything into a clean summary — so you don't have to do it by hand in Excel. If you are running into issues using this pipeline, reach out to claire.laxton@yale.edu.
+This pipeline automates processing raw qPCR exports (Bio-Rad or ABI), merging them with a plate map and target mapping, running QC, and collating everything into a clean summary, so you don't have to do it by hand in Excel. If you are running into issues using this pipeline, reach out to claire.laxton@yale.edu.
 
 ## Citation:
 Please cite the Preprint: https://www.medrxiv.org/content/10.64898/2026.05.19.26353495v1.
