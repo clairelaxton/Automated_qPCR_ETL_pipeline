@@ -4,7 +4,8 @@ a clean summary — so you don't have to do it by hand in Excel.
 
 ## Citation:
 Please cite the Preprint: https://www.medrxiv.org/content/10.64898/2026.05.19.26353495v1.
-A detailed description of how the pipeline processes your qPCR data can be found in the Supplementary Methods section of this paper too, and the PDF is included in this Repository.
+A detailed description of how the pipeline processes your qPCR data can be found in the Supplementary Methods section of this paper too, and the PDF
+is included in this Repository.
 
 ### Important notes:
 - This pipeline does not calculate quantity from standard curves or relative gene expression e.g. by ΔΔCq. It simply maps Samples to
