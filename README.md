@@ -1,6 +1,4 @@
-# Quick start
-Automates processing raw qPCR exports (Bio-Rad or ABI), merging them with a plate map and target mapping, running QC, and collating everything into 
-a clean summary — so you don't have to do it by hand in Excel.
+This pipeline automates processing raw qPCR exports (Bio-Rad or ABI), merging them with a plate map and target mapping, running QC, and collating everything into a clean summary — so you don't have to do it by hand in Excel.
 
 ## Citation:
 Please cite the Preprint: https://www.medrxiv.org/content/10.64898/2026.05.19.26353495v1.
@@ -12,6 +10,7 @@ is included in this Repository.
   plate maps and fluorphore targets, runs basic QC to filter out technically erroneous results, and aggregates technical replicates.
 - QC thresholds and other defaults live in `src/config.py` (`PipelineConfig`).
 
+# Quick Start
 ## Download and install dependancies
 1) Click <> Code, Download ZIP.
 2) Install Python 3.10+ if you don't already have it: https://realpython.com/installing-python/
@@ -41,6 +40,7 @@ pip3 install openpyxl
 ```
 If you're still having issues, try Option 2.
 
+#### Run the pipeline
 2) Run the pipeline against it:
 
 ```bash
