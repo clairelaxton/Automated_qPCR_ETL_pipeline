@@ -3,7 +3,7 @@ Automates processing raw qPCR exports (Bio-Rad or ABI), merging them with a plat
 a clean summary — so you don't have to do it by hand in Excel.
 
 ## Citation:
-Please cite the Preprint: https://www.medrxiv.org/content/10.64898/2026.05.19.26353495v1
+Please cite the Preprint: https://www.medrxiv.org/content/10.64898/2026.05.19.26353495v1.
 A detailed description of how the pipeline processes your qPCR data can be found in the Supplementary Methods section of this paper too, and the PDF is included in this Repository.
 
 ### Important notes:
