@@ -2,8 +2,12 @@
 This pipeline automates processing raw qPCR exports (Bio-Rad or ABI), merging them with a plate map and target mapping, running QC, and collating everything into a clean summary, so you don't have to do it by hand in Excel. If you are running into issues using this pipeline, reach out to claire.laxton@yale.edu.
 
 ## Citation:
-Please cite the Preprint: https://www.medrxiv.org/content/10.64898/2026.05.19.26353495v1.
-A detailed description of how the pipeline processes your qPCR data can be found in the Supplementary Methods section of this paper too. We recommend reading this also before using the pipeline, its included here under Pre-print_Excerpt.md.
+Please cite:
+Laxton C, Tabachnikova A, Cooke L et al.
+Associations between salivary HHV-6 and long COVID severity in a cross-sectional, case–control analysis
+eBioMedicine, 2026; 133
+
+A detailed description of how the pipeline processes your qPCR data can be found in the Methods section of the paper. We recommend reading this also before using the pipeline, its included here under Pre-print_Excerpt.md.
 
 ### Important notes:
 - This pipeline does not calculate quantity from standard curves or relative gene expression e.g. by ΔΔCq. It simply maps Samples to
